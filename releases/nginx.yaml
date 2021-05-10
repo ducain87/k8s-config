@@ -42,7 +42,7 @@ spec:
         path: /
         port: http
       initialDelaySeconds: 5
-      timeoutSeconds: 4
+      timeoutSeconds: 3
       periodSeconds: 5
     metrics:
       enabled: false
