@@ -23,7 +23,7 @@ spec:
       repository: bitnami/nginx
       tag: 1.16.0-debian-9-r46
     service:
-      type: LoadBalancer
+      type: Node
       port: 80
       nodePorts:
         http: ""
